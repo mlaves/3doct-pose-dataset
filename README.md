@@ -22,6 +22,8 @@ pos = f['pos']
 img = img.transpose(2, 0, 1)  # permute data as it is in FORTRAN order
 ```
 
+The PyTorch dataloader as used in the paper can be found in file `data_generator_oct.py` (including data preprocessing).
+
 ## Contact
 
 Max-Heinrich Laves  
